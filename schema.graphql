@@ -1,0 +1,9 @@
+type RamenLoot @entity {
+  id: ID!
+  owner: Bytes! # address
+  ingredient: String
+  ingredient2: String
+  noodles: String
+  sideDishes: String
+  soup: String
+}
